@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  helloword:
+    image: eu.gcr.io/vivaticket-staging/identity:1.0.82-rc
+    build: .
+    ports:
+      - 80:80
